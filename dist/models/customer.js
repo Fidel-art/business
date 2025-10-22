@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Customer = void 0;
+class Customer {
+    constructor(id, name, email, password, purchaseHistory) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.purchaseHistory = purchaseHistory;
+    }
+    signUp() {
+        // Logic for customer sign-up
+    }
+    viewProducts() {
+        // Logic for viewing products
+    }
+    purchaseProduct(productId) {
+        // Logic for purchasing a product
+    }
+}
+exports.Customer = Customer;
